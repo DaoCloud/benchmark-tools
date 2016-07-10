@@ -14,4 +14,4 @@ RUN curl -L -o /usr/local/src/gotty.tar.gz https://github.com/yudai/gotty/releas
 
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/gotty","bash"]
+ENTRYPOINT ["/bin/gotty","-w","bash"]
