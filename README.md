@@ -18,6 +18,7 @@ IO Benchmark 工具
 * fio 
 * netperfmeter
 * iperf
+* netperf
 
 应用 Benchmark 工具
 * redis-benchmark 
